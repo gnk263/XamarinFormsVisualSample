@@ -15,7 +15,8 @@ namespace XFVisualSample.iOS
 
             if (e.NewElement != null)
             {
-                Control.BackgroundColor = Color.LightCoral.ToUIColor();
+                Control.TitleShadowOffset = new CoreGraphics.CGSize(1, 1);
+                Control.BackgroundColor = Color.Pink.ToUIColor();
             }
         }
     }

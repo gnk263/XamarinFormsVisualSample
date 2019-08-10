@@ -16,7 +16,7 @@ namespace XFVisualSample.Droid
 
             if (e.NewElement != null)
             {
-                Control.SetBackgroundColor(Color.LightCoral.ToAndroid());
+                Control.SetBackgroundColor(Color.Pink.ToAndroid());
             }
         }
     }
