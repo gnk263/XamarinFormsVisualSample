@@ -4,11 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Visual="MyCustom"
              x:Class="XFVisualSample.MainPage">
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="Welcome to Xamarin.Forms!" />
         <Button Text="あいうえお" />
+        <Button Text="かきくけこ" Visual="Default"/>
+        <Button Text="さしすせそ" Visual="Material"/>
+        <Button Text="たちつてと" Visual="Material" TextColor="Yellow" BackgroundColor="Green"/>
+        <Button Text="なにぬねの" Visual="Material" TextColor="White" BackgroundColor="Brown"/>
     </StackLayout>
 
 </ContentPage>
